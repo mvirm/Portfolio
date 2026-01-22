@@ -4,11 +4,47 @@
 3-Dentro de la barra de búsqueda, escriba "tailwindcss" y selecciónelo.
 Ahora su archivo CSS está asociado con Tailwind CSS en lugar de CSS normal y las advertencias deberían desaparecer*/
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Normalización de estilos */
+@import "tailwindcss/preflight";
 
-:root {
+@theme {
+  /* Colors */
+  --color-cream: #fdfcf5;
+  --color-linen: #f4f2e9;
+  --color-parchment: #e5e2d5;
+  --color-stone: #b2ad99;
+  --color-ink: #4a483f;
+  --color-yellow: #ffde00;
+  --color-orange: #ff8c00;
+  --color-magenta: #ff007a;
+  --color-blue: #74b9ff;
+  --color-purple: #7a5fff;
+  --color-cyan: #00ffd1;
+  --color-mint: #55e6c1;
+  /* Font families */
+  --font-title: "Montserrat", sans-serif;
+  --font-subtitle: "Space Grotesk", sans-serif;
+  --font-accent-title: "Syne", sans-serif;
+  --font-body: "Space Mono", monospace;
+  --font-accent-body: "Fira Code", monospace;
+}
+
+/* estilos customizados*/
+@layer base {
+  body {
+    @apply bg-parchment text-ink font-body;
+  }
+}
+
+@layer components {
+  /* Aquí van tus componentes Tailwind extendidos, si hay */
+}
+
+@layer utilities {
+  /* Aquí van utilidades personalizadas */
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -75,4 +111,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
