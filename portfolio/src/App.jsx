@@ -1,7 +1,12 @@
-import View from "./components/view/view";
+import Layout from "./components/layout/Layout";
 
 function App() {
-  return <View />;
+  return (
+    <h1 className="text-3xl font-bold text-fuchsia-600">
+      <Layout />
+      Tailwind v4 funcionando 🚀
+    </h1>
+  );
 }
 
 export default App;
