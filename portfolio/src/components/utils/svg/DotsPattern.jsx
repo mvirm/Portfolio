@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
 const DotsPattern = ({ color, className }) => {
-  const [size, setSize] = useState(3);
-  const [gap, setGap] = useState(6);
+  const [size, setSize] = useState(1);
+  const [gap, setGap] = useState(4);
 
   const updatePattern = () => {
     const width = window.innerWidth;
     if (width >= 1024) {
-      setSize(5);
-      setGap(7);
+      setSize(2);
+      setGap(10);
     }
   };
 

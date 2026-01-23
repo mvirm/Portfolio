@@ -5,7 +5,8 @@
 Ahora su archivo CSS está asociado con Tailwind CSS en lugar de CSS normal y las advertencias deberían desaparecer*/
 
 /* Normalización de estilos */
-@import "tailwindcss/preflight";
+/* @import "tailwindcss/preflight"; */
+@import "tailwindcss";
 
 @theme {
   /* Colors */
@@ -27,6 +28,11 @@ Ahora su archivo CSS está asociado con Tailwind CSS en lugar de CSS normal y la
   --font-accent-title: "Syne", sans-serif;
   --font-body: "Space Mono", monospace;
   --font-accent-body: "Fira Code", monospace;
+
+  /* background images  */
+  /* --nav-movile: "url('./assets/background/mobile/navbar.svg')";
+  --nav-tablet: "url('./assets/background/tablet/navbar.svg')";
+  --nav-desktop: "url('./assets/background/desktop/navbar.svg')"; */
 }
 
 /* estilos customizados*/
