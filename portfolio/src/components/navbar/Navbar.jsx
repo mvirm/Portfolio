@@ -10,7 +10,7 @@ import DotsPattern from "../utils/svg/DotsPattern";
 
 const Navbar = () => {
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden z-50">
       {/* BACKGROUND */}
       <picture className="block w-full">
         <img src={bg} alt="" className="w-full h-auto object-contain" />
@@ -28,7 +28,8 @@ const Navbar = () => {
             className="w-4 h-auto -top-4 relative md:hidden"
           />
         </div>
-        <div className="hidden w-2/5 md:text-xl lg:text-2xl md:flex gap-3 lg:gap-16 md:mt-6 ml-8 justify-around">
+        <div className="hidden w-2/5 md:text-base lg:text-xl md:flex gap-3 lg:gap-16 md:mt-6 ml-8 justify-around">
+          <h4>perfil</h4>
           <h4>stack</h4>
           <h4>proyectos</h4>
           <h4>contacto</h4>
@@ -63,7 +64,7 @@ const Navbar = () => {
               color={"var(--color-yellow)"}
               className={"absolute inset-0 w-full h-full"}
             />
-            <h2 className="relative z-10 font-accent-title text-[0.5rem] md:text-xl lg:text-2xl text-center leading-none p-4">
+            <h2 className="relative z-10 font-accent-title text-xs md:text-base lg:text-2xl text-center leading-none p-4">
               FULLSTACK DEVELOPER & <br /> PRODUCT DESIGNER
             </h2>
           </div>

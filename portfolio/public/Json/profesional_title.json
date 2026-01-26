@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Designer",
       "subtitle": "El diseño como estrategia de producto.",
-      "item-list": [
+      "list": [
         "Diseño de UX/UI orientado a la eficiencia del usuario.",
         "Sistemas de diseño que garantizan coherencia visual.",
         "Prototipado estratégico para para validar la solución.",
@@ -15,7 +15,7 @@
       "id": 2,
       "title": "<Developer>",
       "subtitle": "La ingeniería detrás de la solución.",
-      "item-list": [
+      "list": [
         "Arquitectura de software escalable y organizada.",
         "Desarrollo Full Stack enfocado en el producto completo.",
         "Código limpio y optimización de rendimiento",

@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "../navbar/Navbar.jsx";
+import Home from "../landing/Home.jsx";
+import TechSkills from "../techSkills/TechSkills.jsx";
 
 const Layout = () => {
   return (
     <div>
       <Navbar />
-      <h1> componente visual</h1>
+      <Home />
+      <TechSkills />
     </div>
   );
 };
