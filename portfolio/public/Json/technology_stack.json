@@ -1,0 +1,227 @@
+{
+  "technologyStack": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/javascript.svg"
+    },
+    {
+      "id": 2,
+      "name": "HTML5",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/html5.svg"
+    },
+    {
+      "id": 3,
+      "name": "CSS3",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/css3.svg"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/react.svg"
+    },
+    {
+      "id": 5,
+      "name": "Redux",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/redux.svg"
+    },
+    {
+      "id": 6,
+      "name": "React Router",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/react_router.svg"
+    },
+
+    {
+      "id": 7,
+      "name": "Tailwind CSS",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/tailwind.svg"
+    },
+    {
+      "id": 8,
+      "name": "Bootstrap",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/boostrap.svg"
+    },
+    {
+      "id": 9,
+      "name": "Material UI",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/materialUI.svg"
+    },
+    {
+      "id": 10,
+      "name": "Dnd kit",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/dnd_kit.svg"
+    },
+    {
+      "id": 11,
+      "name": "Chart.js",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/chartJS.svg"
+    },
+    {
+      "id": 12,
+      "name": "SweetAlert2",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/sweet_alert.svg"
+    },
+
+    {
+      "id": 13,
+      "name": "Node.js",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/node.svg"
+    },
+    {
+      "id": 14,
+      "name": "Express",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/express.svg"
+    },
+    {
+      "id": 15,
+      "name": "PHP",
+      "usedByMe": false,
+      "icon": "/images/technology_icons/php.svg"
+    },
+
+    {
+      "id": 16,
+      "name": "PostgreSQL",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/postgreSQL.svg"
+    },
+    {
+      "id": 17,
+      "name": "MySQL",
+      "usedByMe": false,
+      "icon": "/images/technology_icons/mySQL.svg"
+    },
+    {
+      "id": 18,
+      "name": "MongoDB",
+      "usedByMe": false,
+      "icon": "/images/technology_icons/mongodb.svg"
+    },
+    {
+      "id": 19,
+      "name": "Sequelize",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/sequelize.svg"
+    },
+    {
+      "id": 20,
+      "name": "Mongoose",
+      "usedByMe": false,
+      "icon": "/images/technology_icons/mongoose.svg"
+    },
+
+    {
+      "id": 21,
+      "name": "Axios",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/axios.svg"
+    },
+    {
+      "id": 22,
+      "name": "Socket.IO",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/socket_io.svg"
+    },
+    {
+      "id": 23,
+      "name": "JWT",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/jwt.svg"
+    },
+    {
+      "id": 24,
+      "name": "Auth",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/auth0.svg"
+    },
+    {
+      "id": 25,
+      "name": "Zod",
+      "usedByMe": false,
+      "icon": "/images/technology_icons/zod.svg"
+    },
+    {
+      "id": 26,
+      "name": "Cloudinary",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/cloudinary.svg"
+    },
+
+    {
+      "id": 27,
+      "name": "Jest",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/jest.svg"
+    },
+    {
+      "id": 28,
+      "name": "Jasmine",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/jasmine.svg"
+    },
+
+    {
+      "id": 29,
+      "name": "Vite",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/vite.svg"
+    },
+    {
+      "id": 30,
+      "name": "Webpack",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/webpack.svg"
+    },
+    {
+      "id": 31,
+      "name": "npm",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/npm.svg"
+    },
+
+    {
+      "id": 32,
+      "name": "Git",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/git.svg"
+    },
+    {
+      "id": 33,
+      "name": "Visual Studio Code",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/visual_studio_code.svg"
+    },
+    {
+      "id": 34,
+      "name": "Postman",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/postman.svg"
+    },
+    {
+      "id": 35,
+      "name": "Thunder Client",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/thunder_client.svg"
+    },
+    {
+      "id": 36,
+      "name": "Trello",
+      "usedByMe": true,
+      "icon": "/images/technology_icons/trello.svg"
+    }
+  ]
+}

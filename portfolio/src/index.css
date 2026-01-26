@@ -33,6 +33,16 @@ Ahora su archivo CSS está asociado con Tailwind CSS en lugar de CSS normal y la
   /* --nav-movile: "url('./assets/background/mobile/navbar.svg')";
   --nav-tablet: "url('./assets/background/tablet/navbar.svg')";
   --nav-desktop: "url('./assets/background/desktop/navbar.svg')"; */
+  --animate-carousel: carousel 45s linear infinite;
+
+  @keyframes carousel {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
 
 /* estilos customizados*/

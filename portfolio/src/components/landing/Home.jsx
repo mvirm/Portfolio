@@ -7,6 +7,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import CardHome from "./CardHome.jsx";
 import color_isotype from "../../assets/color_isotype.svg";
+import TechSkills from "../techSkills/TechSkills.jsx";
 
 const Home = () => {
   const [data, setData] = useState(null);
@@ -24,18 +25,18 @@ const Home = () => {
   return (
     <div>
       {/* BACKGROUND */}
-      <picture className="block w-full -top-24 md:-top-56 lg:-top-80 relative">
+      <picture className="block w-full -top-14 md:-top-28 lg:-top-96 relative">
         <source media="(min-width: 1024px)" srcSet={bgDesktop} />
         <source media="(min-width: 768px)" srcSet={bgTablet} />
         <img src={bgMobile} alt="" className="w-full h-auto object-contain" />
       </picture>
-      <div className="absolute inset-0 w-full top-32 md:top-36 lg:top-48 flex flex-col">
+      <div className="absolute inset-0 w-full top-12 md:top-24 lg:top-48 flex flex-col">
         {!data ? (
           <p>loading</p>
         ) : (
           <>
             {/* FILA SUPERIOR */}
-            <div className="flex w-full justify-center px-4 md:px-8 lg:px-16 gap-6">
+            <div className="flex w-full justify-center px-8 md:px-8 lg:px-16 gap-1 lg:gap-6">
               <CardHome
                 title={data[1].title}
                 subtitle={data[1].subtitle}
@@ -56,7 +57,7 @@ const Home = () => {
             </div>
 
             {/* TEXTO INFERIOR */}
-            <span className="w-full px-8 md:px-16 lg:px-32 text-justify mt-6 md:mt-10 text-base">
+            <span className="w-full px-4 md:px-12 lg:px-32 text-justify mt-8 md:mt-10 text-xs md:text-base">
               Desarrollo soluciones digitales —desde e-commerce y landing pages
               hasta sistemas de software complejos— donde la ingeniería y el
               diseño tienen el mismo peso. Mi valor diferencial es integrar una
@@ -73,8 +74,9 @@ const Home = () => {
         <img
           src={color_isotype}
           alt="isotipo color"
-          className="w-full h-auto"
+          className="w-full h-auto mt-0 lg:mt-10"
         />
+        <TechSkills />
       </div>
     </div>
   );

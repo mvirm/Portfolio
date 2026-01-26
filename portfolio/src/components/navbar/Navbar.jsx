@@ -64,7 +64,7 @@ const Navbar = () => {
               color={"var(--color-yellow)"}
               className={"absolute inset-0 w-full h-full"}
             />
-            <h2 className="relative z-10 font-accent-title text-xs md:text-base lg:text-2xl text-center leading-none p-4">
+            <h2 className="relative z-10 font-accent-title text-[0.55rem] md:text-base lg:text-2xl text-center leading-none p-4">
               FULLSTACK DEVELOPER & <br /> PRODUCT DESIGNER
             </h2>
           </div>
