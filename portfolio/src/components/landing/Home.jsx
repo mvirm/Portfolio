@@ -23,20 +23,20 @@ const Home = () => {
       });
   }, []);
   return (
-    <div>
+    <div className="relative z-30 pointer-events-none">
       {/* BACKGROUND */}
-      <picture className="block w-full -top-14 md:-top-28 lg:-top-96 relative">
+      <picture className="block w-full -top-14 md:-top-28 lg:-top-96 relative pointer-events-none">
         <source media="(min-width: 1024px)" srcSet={bgDesktop} />
         <source media="(min-width: 768px)" srcSet={bgTablet} />
         <img src={bgMobile} alt="" className="w-full h-auto object-contain" />
       </picture>
-      <div className="absolute inset-0 w-full top-12 md:top-24 lg:top-48 flex flex-col">
+      <div className="absolute inset-0 w-full top-12 md:top-24 lg:top-0 flex flex-col ">
         {!data ? (
           <p>loading</p>
         ) : (
           <>
             {/* FILA SUPERIOR */}
-            <div className="flex w-full justify-center px-8 md:px-8 lg:px-16 gap-1 lg:gap-6">
+            <div className="flex w-full justify-center px-8 md:px-8 lg:px-16 gap-1 lg:gap-6 pointer-events-auto">
               <CardHome
                 title={data[1].title}
                 subtitle={data[1].subtitle}

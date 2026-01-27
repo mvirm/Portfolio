@@ -1,12 +1,50 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import ProjectCard from "./ProjectCard";
+import TitleTag from "../utils/TitleTag";
 
 const ProjectsContainer = () => {
-    return (
-        <div>
-            <h1> este es un listado de proyectos donde se van a mapear cada <ProjectCard/></h1>
-        </div>
-    )
-}
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    axios
+      .get("/Json/projects.json")
+      .then((response) => {
+        setData(response.data.projects);
+        console.log(response.data.projects);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
 
-export default ProjectsContainer
+  return (
+    <div className="relative z-10 bg-parchment py-10 -top-154">
+      <TitleTag
+        tilte={"PROYECTOS"}
+        dotsColor={"var(--color-blue)"}
+        bgColor={"bg-purple"}
+      />
+      <div className="p-18 flex flex-row flex-wrap gap-20 w-full justify-center">
+        {data &&
+          data.map((project) => {
+            return (
+              <ProjectCard
+                key={project.id}
+                id={project.id}
+                name={project.name}
+                subtitle={project.subtitle}
+                description={project.description}
+                image={project.images[0].image}
+                technologies={project.technologies}
+                url={project.url}
+                github={project.github}
+              />
+            );
+          })}
+      </div>
+    </div>
+  );
+};
+
+export default ProjectsContainer;

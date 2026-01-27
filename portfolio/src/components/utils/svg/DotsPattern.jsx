@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const DotsPattern = ({ color, className }) => {
   const [size, setSize] = useState(1.5);
   const [gap, setGap] = useState(6);
+  const patternIdRef = useRef(`dots-${Math.random().toString(36).slice(2, 9)}`);
 
   const updatePattern = () => {
     const width = window.innerWidth;
@@ -23,10 +24,10 @@ const DotsPattern = ({ color, className }) => {
   }, []);
 
   return (
-    <svg width="100%" height="100%" className={className}>
+    <svg key={color} width="100%" height="100%" className={className}>
       <defs>
         <pattern
-          id="dots"
+          id={patternIdRef.current}
           width={gap}
           height={gap}
           patternUnits="userSpaceOnUse"
@@ -34,7 +35,7 @@ const DotsPattern = ({ color, className }) => {
           <circle cx={size} cy={size} r={size} fill={color} />
         </pattern>
       </defs>
-      <rect width="100%" height="100%" fill="url(#dots)" />
+      <rect width="100%" height="100%" fill={`url(#${patternIdRef.current})`} />
     </svg>
   );
 };

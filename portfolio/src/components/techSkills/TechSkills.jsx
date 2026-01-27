@@ -24,7 +24,7 @@ const TechSkills = () => {
   }, []);
 
   return (
-    <div className="-top-14 md:-top-36 lg:-top-64 relative">
+    <div className="-top-14 md:-top-36 lg:-top-64 relative pointer-events-none">
       <TitleTag
         tilte={"STACK TECNOLÓGICO"}
         dotsColor={"var(--color-orange)"}

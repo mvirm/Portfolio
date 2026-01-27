@@ -1,7 +1,7 @@
 import React from "react";
 const CardHome = ({ title, subtitle, list }) => {
   return (
-    <div className="group p-4 w-1/3 top-10 lg:top-28 relative ">
+    <div className="group p-4 w-1/3 top-10 lg:top-28 relative pointer-events-auto">
       <div className="flex flex-col items-center text-center">
         <h1 className="font-title font-extrabold text-stone group-hover:text-ink text-base md:text-4xl lg:text-5xl">
           {title.toUpperCase()}

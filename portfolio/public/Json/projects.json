@@ -10,27 +10,149 @@
       "solution": "Desarrollé una interfaz inspirada en la eficiencia de WhatsApp, unificando contactos en un listado inteligente con metadatos de origen y estado. Implementé una optimización técnica crítica mediante Redux Persist y useMemo, logrando una fluidez del 90% en la carga de grandes volúmenes de mensajes.",
       "impact": "El sistema no solo incrementó las ventas en un 70% al garantizar que ninguna consulta quede sin responder, sino que mejoró el posicionamiento en Mercado Libre gracias a la automatización de respuestas en horarios no operativos.",
       "technologies": [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "Sequelize",
-        "Socket.IO",
-        "JavaScript",
-        "React",
-        "Redux",
-        "React Router",
-        "Vite",
-        "Tailwind CSS",
-        "Axios",
-        "Chart.js",
-        "JWT",
-        "Auth0",
-        "SweetAlert2",
-        "Cloudinary"
+        {
+          "id": 1,
+          "name": "JavaScript",
+          "icon": "/images/technology_icons/javascript.svg"
+        },
+        {
+          "id": 2,
+          "name": "React",
+          "icon": "/images/technology_icons/react.svg"
+        },
+        {
+          "id": 3,
+          "name": "Redux",
+          "icon": "/images/technology_icons/redux.svg"
+        },
+        {
+          "id": 4,
+          "name": "React Router",
+          "icon": "/images/technology_icons/react_router.svg"
+        },
+        {
+          "id": 5,
+          "name": "Tailwind CSS",
+          "icon": "/images/technology_icons/tailwind.svg"
+        },
+        {
+          "id": 6,
+          "name": "Chart.js",
+          "icon": "/images/technology_icons/chartJS.svg"
+        },
+        {
+          "id": 7,
+          "name": "SweetAlert2",
+          "icon": "/images/technology_icons/sweet_alert.svg"
+        },
+
+        {
+          "id": 8,
+          "name": "Node.js",
+          "icon": "/images/technology_icons/node.svg"
+        },
+        {
+          "id": 9,
+          "name": "Express",
+          "icon": "/images/technology_icons/express.svg"
+        },
+        {
+          "id": 10,
+          "name": "PostgreSQL",
+          "icon": "/images/technology_icons/postgreSQL.svg"
+        },
+        {
+          "id": 11,
+          "name": "Sequelize",
+          "icon": "/images/technology_icons/sequelize.svg"
+        },
+
+        {
+          "id": 12,
+          "name": "Axios",
+          "icon": "/images/technology_icons/axios.svg"
+        },
+        {
+          "id": 13,
+          "name": "Socket.IO",
+          "icon": "/images/technology_icons/socket_io.svg"
+        },
+        {
+          "id": 14,
+          "name": "JWT",
+          "icon": "/images/technology_icons/jwt.svg"
+        },
+        {
+          "id": 15,
+          "name": "Auth",
+          "icon": "/images/technology_icons/auth0.svg"
+        },
+        {
+          "id": 16,
+          "name": "Cloudinary",
+          "icon": "/images/technology_icons/cloudinary.svg"
+        },
+
+        {
+          "id": 17,
+          "name": "Vite",
+          "icon": "/images/technology_icons/vite.svg"
+        }
       ],
       "url": "https://oneinbox.vercel.app/",
       "github": "https://github.com/One-Inbox",
-      "images": []
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/oneinbox/oneinbox1.png",
+          "name": "Pantalla de acceso"
+        },
+        {
+          "id": 2,
+          "image": "/images/oneinbox/oneinbox2.png",
+          "name": "Bandeja de entrada"
+        },
+        {
+          "id": 3,
+          "image": "/images/oneinbox/oneinbox3.png",
+          "name": "Conversación activa"
+        },
+        {
+          "id": 4,
+          "image": "/images/oneinbox/oneinbox4.png",
+          "name": "Panel de administración"
+        },
+        {
+          "id": 5,
+          "image": "/images/oneinbox/oneinbox5.png",
+          "name": "Perfil de la empresa"
+        },
+        {
+          "id": 6,
+          "image": "/images/oneinbox/oneinbox6.png",
+          "name": "Configuración de canales"
+        },
+        {
+          "id": 7,
+          "image": "/images/oneinbox/oneinbox7.png",
+          "name": "Respuestas automáticas"
+        },
+        {
+          "id": 8,
+          "image": "/images/oneinbox/oneinbox8.png",
+          "name": "Gestión de conversaciones"
+        },
+        {
+          "id": 9,
+          "image": "/images/oneinbox/oneinbox9.png",
+          "name": "Métricas por canal"
+        },
+        {
+          "id": 10,
+          "image": "/images/oneinbox/oneinbox10.png",
+          "name": "Tiempos de respuesta"
+        }
+      ]
     },
     {
       "id": 2,
@@ -42,23 +164,135 @@
       "solution": "Diseñé y desarrollé una interfaz de alta precisión que permite el reordenamiento de procesos mediante Drag & Drop, facilitando la edición de datos complejos en tiempo real. Creé una librería de componentes propia basada en Tailwind CSS (@apply), asegurando una coherencia visual total y una aceleración del 25% en el ciclo de desarrollo.",
       "impact": "Un producto con 'deuda visual cero', donde la arquitectura de información guía al operario de forma intuitiva, minimizando riesgos y profesionalizando la producción del laboratorio.",
       "technologies": [
-        "PHP",
-        "MySQL",
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "Redux",
-        "React Router",
-        "Vite",
-        "Tailwind CSS",
-        "Axios",
-        "Dnd Kit",
-        "SweetAlert2"
+        {
+          "id": 1,
+          "name": "HTML5",
+          "icon": "/images/technology_icons/html5.svg"
+        },
+        {
+          "id": 2,
+          "name": "CSS3",
+          "icon": "/images/technology_icons/css3.svg"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript",
+          "icon": "/images/technology_icons/javascript.svg"
+        },
+        {
+          "id": 4,
+          "name": "React",
+          "icon": "/images/technology_icons/react.svg"
+        },
+        {
+          "id": 5,
+          "name": "Redux",
+          "icon": "/images/technology_icons/redux.svg"
+        },
+        {
+          "id": 6,
+          "name": "React Router",
+          "icon": "/images/technology_icons/react_router.svg"
+        },
+
+        {
+          "id": 7,
+          "name": "Tailwind CSS",
+          "icon": "/images/technology_icons/tailwind.svg"
+        },
+        {
+          "id": 8,
+          "name": "Dnd Kit",
+          "icon": "/images/technology_icons/dnd_kit.svg"
+        },
+        {
+          "id": 9,
+          "name": "SweetAlert2",
+          "icon": "/images/technology_icons/sweet_alert.svg"
+        },
+
+        {
+          "id": 10,
+          "name": "Axios",
+          "icon": "/images/technology_icons/axios.svg"
+        },
+
+        {
+          "id": 11,
+          "name": "PHP",
+          "icon": "/images/technology_icons/php.svg"
+        },
+        {
+          "id": 12,
+          "name": "MySQL",
+          "icon": "/images/technology_icons/mySQL.svg"
+        },
+
+        {
+          "id": 13,
+          "name": "Vite",
+          "icon": "/images/technology_icons/vite.svg"
+        }
       ],
       "url": "https://delriosistemas.com/",
       "github": "proyecto privado",
-      "images": []
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/laboratorio_DelRio/laboratorio1.png",
+          "name": "Inicio del sistema"
+        },
+        {
+          "id": 2,
+          "image": "/images/laboratorio_DelRio/laboratorio2.png",
+          "name": "Acceso de usuarios"
+        },
+        {
+          "id": 3,
+          "image": "/images/laboratorio_DelRio/laboratorio3.png",
+          "name": "Comunicados internos"
+        },
+        {
+          "id": 4,
+          "image": "/images/laboratorio_DelRio/laboratorio4.png",
+          "name": "Referencia cambiaria"
+        },
+        {
+          "id": 5,
+          "image": "/images/laboratorio_DelRio/laboratorio5.png",
+          "name": "Listado de procesos"
+        },
+        {
+          "id": 6,
+          "image": "/images/laboratorio_DelRio/laboratorio6.png",
+          "name": "Gestión de procesos"
+        },
+        {
+          "id": 7,
+          "image": "/images/laboratorio_DelRio/laboratorio7.png",
+          "name": "Listado de fórmulas"
+        },
+        {
+          "id": 8,
+          "image": "/images/laboratorio_DelRio/laboratorio8.png",
+          "name": "Gestión de fórmulas"
+        },
+        {
+          "id": 9,
+          "image": "/images/laboratorio_DelRio/laboratorio9.png",
+          "name": "Orden de procesos"
+        },
+        {
+          "id": 10,
+          "image": "/images/laboratorio_DelRio/laboratorio10.png",
+          "name": "Gestión de ingredientes"
+        },
+        {
+          "id": 11,
+          "image": "/images/laboratorio_DelRio/laboratorio11.png",
+          "name": "Página no encontrada"
+        }
+      ]
     },
     {
       "id": 3,
@@ -70,23 +304,120 @@
       "solution": "Mediante una escucha activa de los requerimientos del cliente, bajé conceptos creativos a una interfaz fluida. Prioricé un desarrollo libre de recursos pesados para no saturar al usuario, logrando que la estética de la marca conviva con una navegación ágil.",
       "impact": "Una tienda online con diseño de autor que potencia la imagen de marca y ofrece una experiencia de compra premium, demostrando que la alta calidad estética puede complementarse con la eficiencia técnica.",
       "technologies": [
-        "PHP",
-        "MySQL",
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "Redux",
-        "React Router",
-        "Vite",
-        "Tailwind CSS",
-        "Bootstrap",
-        "Material UI",
-        "Axios"
+        {
+          "id": 1,
+          "name": "HTML5",
+          "icon": "/images/technology_icons/html5.svg"
+        },
+        {
+          "id": 2,
+          "name": "CSS3",
+          "icon": "/images/technology_icons/css3.svg"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript",
+          "icon": "/images/technology_icons/javascript.svg"
+        },
+        {
+          "id": 4,
+          "name": "React",
+          "icon": "/images/technology_icons/react.svg"
+        },
+        {
+          "id": 5,
+          "name": "Redux",
+          "icon": "/images/technology_icons/redux.svg"
+        },
+        {
+          "id": 6,
+          "name": "React Router",
+          "icon": "/images/technology_icons/react_router.svg"
+        },
+
+        {
+          "id": 7,
+          "name": "Tailwind CSS",
+          "icon": "/images/technology_icons/tailwind.svg"
+        },
+        {
+          "id": 8,
+          "name": "Bootstrap",
+          "icon": "/images/technology_icons/boostrap.svg"
+        },
+        {
+          "id": 9,
+          "name": "Material UI",
+          "icon": "/images/technology_icons/materialUI.svg"
+        },
+
+        {
+          "id": 10,
+          "name": "Axios",
+          "icon": "/images/technology_icons/axios.svg"
+        },
+
+        {
+          "id": 11,
+          "name": "PHP",
+          "icon": "/images/technology_icons/php.svg"
+        },
+        {
+          "id": 12,
+          "name": "MySQL",
+          "icon": "/images/technology_icons/mySQL.svg"
+        },
+
+        {
+          "id": 13,
+          "name": "Vite",
+          "icon": "/images/technology_icons/vite.svg"
+        }
       ],
       "url": "https://avignonstore.com/ruta_de_prueba",
       "github": "proyecto privado",
-      "images": []
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/avignon/avignon1.png",
+          "name": "Inicio-Video"
+        },
+        {
+          "id": 2,
+          "image": "/images/avignon/avignon2.png",
+          "name": "Armá tu look"
+        },
+        {
+          "id": 3,
+          "image": "/images/avignon/avignon3.png",
+          "name": "Acceso de usuarios"
+        },
+        {
+          "id": 4,
+          "image": "/images/avignon/avignon4.png",
+          "name": "Suscripción"
+        },
+        {
+          "id": 5,
+          "image": "/images/avignon/avignon5.png",
+          "name": "Catálogo de productos"
+        },
+        {
+          "id": 6,
+          "image": "/images/avignon/avignon6.png",
+          "name": "Selección de variantes"
+        },
+        {
+          "id": 7,
+          "image": "/images/avignon/avignon7.png",
+          "name": "Detalle de producto"
+        },
+        {
+          "id": 8,
+          "image": "/images/avignon/avignon8.png",
+          "name": "Carrito de compras"
+        }
+      ]
     },
     {
       "id": 4,
@@ -98,26 +429,151 @@
       "solution": "Diseñé un sistema de alertas visuales inteligentes que notifican niveles críticos de inventario antes de que ocurra el quiebre de stock. Implementé una lógica de validación de datos rigurosa que impide ingresos erróneos, adaptando la complejidad técnica a una interfaz sencilla para usuarios no habituados al software.",
       "impact": "Reducción del 40% en errores manuales de inventario y una optimización total de los tiempos de carga, logrando que el control del negocio sea predecible y profesional.",
       "technologies": [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Mongoose",
-        "JavaScript",
-        "React",
-        "Redux",
-        "React Router",
-        "Vite",
-        "Tailwind CSS",
-        "Material UI",
-        "Axios",
-        "Cloudinary",
-        "JWT",
-        "SweetAlert2",
-        "Zod"
+        {
+          "id": 1,
+          "name": "JavaScript",
+          "icon": "/images/technology_icons/javascript.svg"
+        },
+        {
+          "id": 2,
+          "name": "React",
+          "icon": "/images/technology_icons/react.svg"
+        },
+        {
+          "id": 3,
+          "name": "Redux",
+          "icon": "/images/technology_icons/redux.svg"
+        },
+        {
+          "id": 4,
+          "name": "React Router",
+          "icon": "/images/technology_icons/react_router.svg"
+        },
+
+        {
+          "id": 5,
+          "name": "Tailwind CSS",
+          "icon": "/images/technology_icons/tailwind.svg"
+        },
+        {
+          "id": 6,
+          "name": "Material UI",
+          "icon": "/images/technology_icons/materialUI.svg"
+        },
+        {
+          "id": 7,
+          "name": "SweetAlert2",
+          "icon": "/images/technology_icons/sweet_alert.svg"
+        },
+
+        {
+          "id": 8,
+          "name": "Node.js",
+          "icon": "/images/technology_icons/node.svg"
+        },
+        {
+          "id": 9,
+          "name": "Express",
+          "icon": "/images/technology_icons/express.svg"
+        },
+
+        {
+          "id": 10,
+          "name": "MongoDB",
+          "icon": "/images/technology_icons/mongodb.svg"
+        },
+        {
+          "id": 11,
+          "name": "Mongoose",
+          "icon": "/images/technology_icons/mongoose.svg"
+        },
+
+        {
+          "id": 12,
+          "name": "Axios",
+          "icon": "/images/technology_icons/axios.svg"
+        },
+        {
+          "id": 13,
+          "name": "JWT",
+          "icon": "/images/technology_icons/jwt.svg"
+        },
+        {
+          "id": 14,
+          "name": "Zod",
+          "icon": "/images/technology_icons/zod.svg"
+        },
+        {
+          "id": 15,
+          "name": "Cloudinary",
+          "icon": "/images/technology_icons/cloudinary.svg"
+        },
+
+        {
+          "id": 16,
+          "name": "Vite",
+          "icon": "/images/technology_icons/vite.svg"
+        }
       ],
       "url": "https://youtu.be/sUDWXduWUtU",
       "github": "https://github.com/mvirm/iPunto",
-      "images": []
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/ipunto/ipunto1.png",
+          "name": "Landing institucional"
+        },
+        {
+          "id": 2,
+          "image": "/images/ipunto/ipunto2.png",
+          "name": "Acceso de usuarios"
+        },
+        {
+          "id": 3,
+          "image": "/images/ipunto/ipunto3.png",
+          "name": "Registro de empresa"
+        },
+        {
+          "id": 4,
+          "image": "/images/ipunto/ipunto4.png",
+          "name": "Panel de gestión"
+        },
+        {
+          "id": 5,
+          "image": "/images/ipunto/ipunto5.png",
+          "name": "Catálogo de productos"
+        },
+        {
+          "id": 6,
+          "image": "/images/ipunto/ipunto6.png",
+          "name": "Alta de productos"
+        },
+        {
+          "id": 7,
+          "image": "/images/ipunto/ipunto7.png",
+          "name": "Detalle de producto"
+        },
+        {
+          "id": 8,
+          "image": "/images/ipunto/ipunto8.png",
+          "name": "Edición de producto"
+        },
+        {
+          "id": 9,
+          "image": "/images/ipunto/ipunto9.png",
+          "name": "Carrito y facturación"
+        },
+        {
+          "id": 10,
+          "image": "/images/ipunto/ipunto10.png",
+          "name": "Inventario"
+        },
+        {
+          "id": 11,
+          "image": "/images/ipunto/ipunto11.png",
+          "name": "Gestión de empleados"
+        }
+      ]
     }
   ]
 }
