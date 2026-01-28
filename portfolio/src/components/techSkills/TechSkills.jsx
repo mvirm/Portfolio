@@ -24,7 +24,7 @@ const TechSkills = () => {
   }, []);
 
   return (
-    <div className="-top-14 md:-top-36 lg:-top-64 relative pointer-events-none">
+    <div className="-top-14 md:-top-32 lg:-top-64 relative pointer-events-none">
       <TitleTag
         tilte={"STACK TECNOLÓGICO"}
         dotsColor={"var(--color-orange)"}
@@ -33,7 +33,7 @@ const TechSkills = () => {
       {!data.length ? (
         <p>loading</p>
       ) : (
-        <div className="overflow-hidden m-4 md:m-8 lg:m-20 px-4">
+        <div className="overflow-hidden m-4 md:m-8 lg:m-18 px-4">
           <div className="flex w-max animate-carousel gap-4 lg:gap-6">
             {[...data, ...data].map((tech, index) => (
               <img

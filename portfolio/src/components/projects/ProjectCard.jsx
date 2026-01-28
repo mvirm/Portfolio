@@ -12,9 +12,16 @@ const ProjectCard = ({
   technologies,
   url,
   github,
+  setShowModal,
+  setSelectedProjectId,
 }) => {
+  const showModalHandler = (id) => () => {
+    setShowModal(true);
+    setSelectedProjectId(id);
+  };
+
   return (
-    <div className="relative bg-cream w-2/5 h-auto">
+    <div className="relative bg-cream w-full md:w-2/5 h-auto">
       <div>
         <DotsPattern
           color={"var(--color-yellow)"}
@@ -28,11 +35,14 @@ const ProjectCard = ({
             <h2 className="font-accent-title text-sm lg:text-xl">
               {subtitle.toUpperCase()}
             </h2>
-            <h3 className="font-accent-body text-base lg:text-2xl text-purple hover:text-magenta relative z-50 ">
+            <h3
+              className="font-accent-body text-base lg:text-2xl text-purple hover:text-magenta relative z-50"
+              onClick={showModalHandler(id)}
+            >
               VER DETALLE
             </h3>
           </div>
-          <div className="flex flex-row w-1/3 justify-evenly items-center  relative z-50">
+          <div className="flex flex-row w-1/3 justify-evenly items-center  relative z-50 gap-4">
             <a href={url} target="_blank" rel="noopener noreferrer">
               <img
                 src={linkWeb}
@@ -64,10 +74,14 @@ const ProjectCard = ({
         </div>
       </div>
       <div>
-        <img src={image} alt={name} className="w-4/5 h-auto mx-auto my-10" />
+        <img
+          src={image}
+          alt={name}
+          className="w-4/5 h-auto mx-auto my-6 lgmy-10"
+        />
         <div className="w-11/12 mx-auto">
           <p className="text-sm font-body text-justify">{description}</p>
-          <div className="flex flex-row flex-wrap gap-4 py-10">
+          <div className="flex flex-row flex-wrap gap-4 py-4 lg:py-10 justify-center">
             {technologies &&
               technologies.map((tech, index) => (
                 <img

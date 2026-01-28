@@ -16,7 +16,7 @@ const Home = () => {
       .get("/Json/profesional_title.json")
       .then((response) => {
         setData(response.data.profesional_title);
-        console.log(response.data);
+        //console.log(response.data);
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -25,12 +25,12 @@ const Home = () => {
   return (
     <div className="relative z-30 pointer-events-none">
       {/* BACKGROUND */}
-      <picture className="block w-full -top-14 md:-top-28 lg:-top-96 relative pointer-events-none">
+      <picture className="block w-full -top-16 md:-top-28 lg:-top-96 relative pointer-events-none">
         <source media="(min-width: 1024px)" srcSet={bgDesktop} />
         <source media="(min-width: 768px)" srcSet={bgTablet} />
         <img src={bgMobile} alt="" className="w-full h-auto object-contain" />
       </picture>
-      <div className="absolute inset-0 w-full top-12 md:top-24 lg:top-0 flex flex-col ">
+      <div className="absolute inset-0 w-full top-0 flex flex-col ">
         {!data ? (
           <p>loading</p>
         ) : (
@@ -57,7 +57,7 @@ const Home = () => {
             </div>
 
             {/* TEXTO INFERIOR */}
-            <span className="w-full px-4 md:px-12 lg:px-32 text-justify mt-8 md:mt-10 text-xs md:text-base">
+            <span className="w-full px-4 md:px-12 lg:px-32 text-justify mt-8 md:mt-10 text-xs lg:text-base">
               Desarrollo soluciones digitales —desde e-commerce y landing pages
               hasta sistemas de software complejos— donde la ingeniería y el
               diseño tienen el mismo peso. Mi valor diferencial es integrar una
@@ -74,7 +74,7 @@ const Home = () => {
         <img
           src={color_isotype}
           alt="isotipo color"
-          className="w-full h-auto mt-0 lg:mt-10"
+          className="w-full h-auto mt-0 md:mt-4 lg:mt-10"
         />
         <TechSkills />
       </div>

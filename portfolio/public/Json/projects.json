@@ -6,7 +6,7 @@
       "subtitle": "Hub de Mensajería Omnicanal",
       "short_description": "Optimización de respuesta y conversión en ventas.",
       "description": "Plataforma diseñada para centralizar las consultas de Meta, Mercado Libre y TiendaNube en un solo panel operativo. El sistema organiza el flujo de mensajes para evitar la pérdida de oportunidades comerciales, logrando una gestión ágil que permite respuestas en tiempo real y mejora el posicionamiento en los canales de venta.",
-      "challenge": "Centralizar la atención al cliente de múltiples plataformas (Meta, Mercado Libre, TiendaNube) en una sola interfaz, eliminando la pérdida de oportunidades de venta por falta de respuesta.",
+      "challenge": "Centralizar la atención al cliente de múltiples plataformas (Meta, Mercado Libre, Telegram, TiendaNube) en una sola interfaz, eliminando la pérdida de oportunidades de venta por falta de respuesta.",
       "solution": "Desarrollé una interfaz inspirada en la eficiencia de WhatsApp, unificando contactos en un listado inteligente con metadatos de origen y estado. Implementé una optimización técnica crítica mediante Redux Persist y useMemo, logrando una fluidez del 90% en la carga de grandes volúmenes de mensajes.",
       "impact": "El sistema no solo incrementó las ventas en un 70% al garantizar que ninguna consulta quede sin responder, sino que mejoró el posicionamiento en Mercado Libre gracias a la automatización de respuestas en horarios no operativos.",
       "technologies": [

@@ -28,7 +28,7 @@ const Navbar = () => {
             className="w-4 h-auto -top-4 relative md:hidden"
           />
         </div>
-        <div className="hidden w-2/5 md:text-base lg:text-xl md:flex gap-3 lg:gap-16 md:mt-6 ml-8 justify-around">
+        <div className="hidden w-2/5 md:text-base lg:text-xl md:flex gap-3 lg:gap-16 md:mt-3 ml-8 justify-around">
           <h4>perfil</h4>
           <h4>stack</h4>
           <h4>proyectos</h4>
