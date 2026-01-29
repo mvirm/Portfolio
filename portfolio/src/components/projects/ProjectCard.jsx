@@ -2,6 +2,7 @@ import React from "react";
 import linkWeb from "../../assets/contact_icons/linkWeb_grey.svg";
 import githubIcon from "../../assets/contact_icons/github_grey.svg";
 import DotsPattern from "../utils/svg/DotsPattern";
+import LinkToProject from "../utils/LinksToProject";
 
 const ProjectCard = ({
   id,
@@ -42,35 +43,7 @@ const ProjectCard = ({
               VER DETALLE
             </h3>
           </div>
-          <div className="flex flex-row w-1/3 justify-evenly items-center  relative z-50 gap-4">
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              <img
-                src={linkWeb}
-                alt="Link Web"
-                className="w-10 h-auto lg:w-11"
-              />
-            </a>
-            {github === "proyecto privado" ? (
-              <div className="relative group">
-                <img
-                  src={githubIcon}
-                  alt="GitHub"
-                  className="w-10 h-auto lg:w-11"
-                />
-                <span className="absolute top-full mt-1 hidden group-hover:block text-xs text-purple bg-cream px-2 py-1 rounded whitespace-nowrap z-50">
-                  Proyecto Privado
-                </span>
-              </div>
-            ) : (
-              <a href={github} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={githubIcon}
-                  alt="GitHub"
-                  className="w-10 h-auto lg:w-11"
-                />
-              </a>
-            )}
-          </div>
+          <LinkToProject url={url} github={github} />
         </div>
       </div>
       <div>
