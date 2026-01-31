@@ -51,7 +51,7 @@ const Navbar = () => {
       </picture>
 
       {/* NAVEGACIÓN FIXED: Isotipo, Hamburguesa y h4 */}
-      <div className="fixed top-0 left-0 w-full z-100 flex justify-between px-2.5 py-1 bg-linen/70 h-4 md:h-10 lg:h-12">
+      <div className="fixed top-0 left-0 w-full z-100 flex justify-between px-2.5 py-1 bg-linen/70 h-5 md:h-10 lg:h-12">
         <div className="flex w-full flex-row">
           {/* Lado Izquierdo: Isotipo y Menú Hamburguesa */}
           <div className="w-full md:w-1/5">
@@ -59,11 +59,13 @@ const Navbar = () => {
               src={isotype}
               alt="isotipo"
               className="w-16 h-auto md:w-48 lg:w-64"
+              // className="hidden md:block md:w-48 lg:w-64"
             />
             <img
               src={hamburguer_menu}
               alt="menu"
-              className="w-4 h-auto -top-4 relative md:hidden cursor-pointer"
+              className="w-6 h-auto -top-4 relative md:hidden cursor-pointer pr-1"
+              // className="w-10 h-auto -top-2 relative md:hidden cursor-pointer "
               onClick={showMenuHandler}
             />
           </div>

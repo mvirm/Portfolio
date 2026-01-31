@@ -33,7 +33,7 @@ const CarouselImages = ({ images }) => {
           src={image.image}
           alt={image.name}
           className="
-            w-[90%]
+            w-[95%]
             max-w-3xl
             transition-transform duration-700 ease-out
           "

@@ -23,7 +23,7 @@ const Layout = () => {
 
       {showModal && (
         <div className="fixed inset-0 bg-stone/70 flex items-center justify-center z-50">
-          <div className="bg-cream w-1/2 max-h-screen overflow-y-auto relative">
+          <div className="bg-cream w-3/4 max-h-screen overflow-y-auto relative">
             <DetailProject
               id={selectedProjectId}
               setShowModal={setShowModal}

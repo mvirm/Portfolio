@@ -43,29 +43,31 @@ const DetailProject = ({ id, setShowModal, setSelectedProjectId }) => {
       </picture>
       <div className="absolute inset-0 w-full">
         <div className="flex flex-col">
-          <div className="flex flex-row justify-end px-1 pt-1 md:px-2 lg:px-4 md:pt-2 lg:pt-4">
+          <div className="flex flex-row justify-end px-2 pt-2 md:px-3 lg:px-5 md:pt-3 lg:pt-5">
             <img
               src={close}
               onClick={closeModalHandler}
-              className="w-3 h-auto md:w-4 lg:w-8"
+              className="w-5 h-auto md:w-6 lg:w-10"
             />
           </div>
-          <h1 className="font-subtitle font-bold text-xs md:text-xl lg:text-3xl pl-1 md:pl-2 lg:pl-4 text-magenta ">
+          <h1 className="font-subtitle font-bold text-xl md:text-2xl lg:text-4xl pl-2 md:pl-4 lg:pl-6 text-magenta ">
             {data && data.name.toUpperCase()}
           </h1>
-          <div className="relative w-full h-10 lg:h-20 flex items-center mt-1 lg:mt-2 ">
+          <div className="relative w-full h-14 md:h-16 lg:h-28 flex items-center mt-1 lg:mt-6 ">
             <DotsPattern
               color={"var(--color-yellow)"}
               className={"absolute inset-0 w-full h-full z-0"}
             />
-            <h2 className="font-accent-title text-xs mt-1/2 md:text-sm lg:text-xl  pl-1 md:pl-2 lg:pl-4 z-10">
+            <h2 className="font-accent-title text-sm mt-1/2 md:text-base lg:text-2xl  pl-2 md:pl-4 lg:pl-6 z-10">
               {data && data.subtitle.toUpperCase()}
             </h2>
           </div>
-          <div className="mt-auto flex justify-end pt-1 md:pt-6 lg:pt-16 pr-0 md:pr-6 lg:pr-12">
+          <div className="mt-auto flex justify-end pt-6 md:pt-8 lg:pt-28 pr-4 md:pr-10 lg:pr-20">
             <LinkToProject
               url={data && data.url}
               github={data && data.github}
+              gap={"gap-3 md:gap-6 lg:gap-12"}
+              width={"w-6 md:w-10 lg:w-14"}
             />
           </div>
         </div>
@@ -126,12 +128,24 @@ const DetailProject = ({ id, setShowModal, setSelectedProjectId }) => {
                     <img
                       src={tech.icon}
                       alt={tech.name}
-                      className="w-8 h-auto lg:w-10"
+                      className="w-8 h-auto md:w-10 lg:w-12"
                     />
                   );
                 })}
               </div>
             </div>
+          </div>
+          <div className="relative w-full h-10 lg:h-10 flex items-center justify-center mt-1 mb-2 lg:my-4 ">
+            <DotsPattern
+              color={"var(--color-yellow)"}
+              className={"absolute inset-0 w-full h-full z-0"}
+            />
+            <button
+              className="font-bold text-sm mt-1/2 md:text-base lg:text-xl z-10"
+              onClick={() => setShowModal(false)}
+            >
+              cerrar
+            </button>
           </div>
         </div>
       )}

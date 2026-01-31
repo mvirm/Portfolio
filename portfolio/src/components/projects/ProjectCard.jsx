@@ -43,7 +43,12 @@ const ProjectCard = ({
               VER DETALLE
             </h3>
           </div>
-          <LinkToProject url={url} github={github} />
+          <LinkToProject
+            url={url}
+            github={github}
+            gap={"gap-2 md:gap-4 lg:gap-6"}
+            width={"w-6 md:w-8 lg:w-11"}
+          />
         </div>
       </div>
       <div>
