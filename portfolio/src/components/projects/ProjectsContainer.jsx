@@ -21,13 +21,18 @@ const ProjectsContainer = ({ setShowModal, setSelectedProjectId }) => {
   }, []);
 
   return (
-    <div className="relative z-10 bg-parchment py-10 -top-32 md:-top-56 lg:-top-154">
-      <TitleTag
-        tilte={"PROYECTOS"}
-        dotsColor={"var(--color-blue)"}
-        bgColor={"bg-purple"}
-      />
-      <div className=" p-4 md:px-0 md:py-8 lg:p-18 flex flex-col md:flex-row flex-wrap gap-8 lg:gap-20 w-full justify-center">
+    <div className="relative z-10 bg-parchment py-10 -top-16 md:-top-28 lg:-top-56 -mb-24 md:-mb-32 lg:-mb-56">
+      <div
+        id="projects"
+        className="scroll-mt-8 md:scroll-mt-16 lg:scroll-mt-24"
+      >
+        <TitleTag
+          tilte={"PROYECTOS"}
+          dotsColor={"var(--color-blue)"}
+          bgColor={"bg-purple"}
+        />
+      </div>
+      <div className=" p-4 md:px-0 md:py-8 lg:px-18 lg:pt-24 flex flex-col md:flex-row flex-wrap gap-8 lg:gap-20 w-full justify-center">
         {data &&
           data.map((project) => {
             return (

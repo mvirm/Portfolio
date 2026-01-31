@@ -25,11 +25,13 @@ const TechSkills = () => {
 
   return (
     <div className="-top-14 md:-top-32 lg:-top-64 relative pointer-events-none">
-      <TitleTag
-        tilte={"STACK TECNOLÓGICO"}
-        dotsColor={"var(--color-orange)"}
-        bgColor={"bg-magenta"}
-      />
+      <div id="stack" className="scroll-mt-8 md:scroll-mt-16 lg:scroll-mt-24">
+        <TitleTag
+          tilte={"STACK TECNOLÓGICO"}
+          dotsColor={"var(--color-orange)"}
+          bgColor={"bg-magenta"}
+        />
+      </div>
       {!data.length ? (
         <p>loading</p>
       ) : (
@@ -40,7 +42,7 @@ const TechSkills = () => {
                 key={index}
                 src={tech.icon}
                 alt={tech.name}
-                className="w-12 h-12 md:w-16 md:h-16 lg:w-28 lg:h-28 shrink-0"
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-28 lg:h-28 shrink-0"
               />
             ))}
           </div>
