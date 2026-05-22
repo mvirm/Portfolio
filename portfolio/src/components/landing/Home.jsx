@@ -43,7 +43,7 @@ const Home = () => {
           className="w-full h-auto object-contain -mt-10 md:-mt-24 lg:-mt-96"
         />
       </picture>
-      <div className="absolute inset-0 w-full -top-4 flex flex-col mt-8 md:mt-20 lg:mt-96 ">
+      <div className="absolute inset-0 w-full -top-4 flex flex-col mt-10 md:mt-20 lg:mt-96 ">
         {!data ? (
           <p>loading</p>
         ) : (
