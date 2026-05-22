@@ -47,6 +47,9 @@ Ahora su archivo CSS está asociado con Tailwind CSS en lugar de CSS normal y la
 
 /* estilos customizados*/
 @layer base {
+  html {
+    color-scheme: light;
+  }
   body {
     @apply bg-parchment text-ink font-body;
   }

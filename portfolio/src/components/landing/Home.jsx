@@ -34,12 +34,16 @@ const Home = () => {
   return (
     <div className="relative z-30 pointer-events-none">
       {/* BACKGROUND */}
-      <picture className="block w-full -top-16 md:-top-28 lg:-top-96 relative pointer-events-none -mb-16 md:-mb-28 lg:-mb-96">
+      <picture className="block w-full relative pointer-events-none">
         <source media="(min-width: 1024px)" srcSet={bgDesktop} />
         <source media="(min-width: 768px)" srcSet={bgTablet} />
-        <img src={bgMobile} alt="" className="w-full h-auto object-contain" />
+        <img
+          src={bgMobile}
+          alt=""
+          className="w-full h-auto object-contain -mt-28 md:-mt-28 lg:-mt-96"
+        />
       </picture>
-      <div className="absolute inset-0 w-full -top-4 flex flex-col ">
+      <div className="absolute inset-0 w-full -top-4 flex flex-col mt-28 md:mt-20 lg:mt-96 ">
         {!data ? (
           <p>loading</p>
         ) : (
