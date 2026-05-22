@@ -29,7 +29,7 @@ const ProjectCard = ({
           className={"absolute w-full h-auto z-0 pointer-events-none"}
         />
         <div className="flex flex-row justify-around items-center mx-6 py-6 relative z-10">
-          <div className="w-2/3 lg:w-full flex flex-col items-start">
+          <div className="w-full flex flex-col items-start">
             <h1 className="font-subtitle font-bold text-base lg:text-2xl">
               {name.toUpperCase()}
             </h1>

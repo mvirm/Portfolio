@@ -40,10 +40,10 @@ const Home = () => {
         <img
           src={bgMobile}
           alt=""
-          className="w-full h-auto object-contain -mt-28 md:-mt-28 lg:-mt-96"
+          className="w-full h-auto object-contain -mt-10 md:-mt-24 lg:-mt-96"
         />
       </picture>
-      <div className="absolute inset-0 w-full -top-4 flex flex-col mt-28 md:mt-20 lg:mt-96 ">
+      <div className="absolute inset-0 w-full -top-4 flex flex-col mt-8 md:mt-20 lg:mt-96 ">
         {!data ? (
           <p>loading</p>
         ) : (
@@ -79,7 +79,7 @@ const Home = () => {
 
             <span
               id="profile"
-              className={`w-full px-4 md:px-12 lg:px-32 text-justify ${activeCard !== null ? "mt-0 md:mt-12 lg:mt-10 " : "mt-8 md:mt-10"} text-xs md:text-sm lg:text-base scroll-mt-8 md:scroll-mt-16 lg:scroll-mt-24`}
+              className={`w-full px-4 md:px-12 lg:px-32 text-justify ${activeCard !== null ? "mt-0 md:mt-12 lg:mt-10 " : "mt-2 md:mt-10"} text-xs md:text-sm lg:text-base scroll-mt-8 md:scroll-mt-16 lg:scroll-mt-24`}
             >
               Desarrollo soluciones digitales —desde e-commerce y landing pages
               hasta sistemas de software complejos— donde la ingeniería y el
