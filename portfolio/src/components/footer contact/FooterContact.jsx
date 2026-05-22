@@ -34,7 +34,7 @@ const FooterContact = () => {
         {/* MAIN ROW */}
         <div className="flex w-full justify-between">
           <div className="w-full px-5 lg:px-10 flex flex-col md:flex-row gap-4 md:gap-10 lg:gap-20">
-            <span className="w-full md:w-1/3 text-xs md:text-sm lg:text-xl leading-relaxed text-justify">
+            <span className="w-full md:w-1/3 text-xs md:text-sm lg:text-xl leading-relaxed text-justify p-0">
               "Programar es mi forma de resolver problemas; diseñar es mi forma
               de hacer que esas soluciones sean memorables." <br />
               <strong className="text-bold">
@@ -48,8 +48,8 @@ const FooterContact = () => {
             <div className="w-full md:w-2/3 flex flex-col items-center gap-4 md:gap-8 lg:gap-16">
               {/* ICONS */}
               <div className="flex w-full justify-center gap-10 md:gap-12 lg:gap-24">
-                <div className="flex flex-col items-center gap-1 md:gap-2 lg:gap-4">
-                  <p className="text-[0.6rem] md:text-sm lg:text-xl">
+                <div className="w-full flex flex-col items-center gap-1 md:gap-2 lg:gap-4">
+                  <p className="text-[0.5rem] md:text-sm lg:text-xl p-0">
                     Escribime y charlemos!
                   </p>
                   <div className="flex gap-5 lg:gap-10">
@@ -81,8 +81,8 @@ const FooterContact = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col items-center gap-1 md:gap-2 lg:gap-4">
-                  <p className="text-[0.6rem] md:text-sm lg:text-xl">
+                <div className="w-full flex flex-col items-center gap-1 md:gap-2 lg:gap-4">
+                  <p className="text-[0.5rem] md:text-sm lg:text-xl p-0">
                     O podés contactar conmigo
                   </p>
                   <div className="flex gap-5 lg:gap-10">

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import InitialLoading from "../initialLoading/InitialLoading.jsx";
 import Navbar from "../navbar/Navbar.jsx";
 import Home from "../landing/Home.jsx";
 import ProjectsContainer from "../projects/ProjectsContainer.jsx";
@@ -9,17 +10,27 @@ import FooterContact from "../footer contact/FooterContact.jsx";
 const Layout = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProjectId, setSelectedProjectId] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 6000);
   return (
-    <div className="relative overflow-x-hidden">
-      <div>
-        <Navbar />
-        <Home />
-        <ProjectsContainer
-          setShowModal={setShowModal}
-          setSelectedProjectId={setSelectedProjectId}
-        />
-      </div>
-      <FooterContact />
+    <div className=" min-h-screen max-w-screen gap-0">
+      {isLoading ? (
+        <InitialLoading />
+      ) : (
+        <div>
+          <div>
+            <Navbar />
+            <Home />
+            <ProjectsContainer
+              setShowModal={setShowModal}
+              setSelectedProjectId={setSelectedProjectId}
+            />
+          </div>
+          <FooterContact />
+        </div>
+      )}
 
       {showModal && (
         <div className="fixed inset-0 bg-stone/70 flex items-center justify-center z-50">
